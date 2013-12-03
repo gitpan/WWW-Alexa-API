@@ -42,9 +42,13 @@ sub get {
 
 WWW::Alexa::API - Query Alexa.com for Traffic information of website.
 
+=back
+
 =head1 VERSION
 
 Version 0.03
+
+=back
 
 =head1 SYNOPSIS
 
@@ -52,6 +56,8 @@ use WWW::Alexa::API;
 
 my $alexa = WWW::Alexa::API->new();
 my $alexa_response = $alexa->get('example.com');
+
+=back
 
 =head1 DESCRIPTION
 
@@ -95,10 +101,13 @@ C<ip_address> allows you to set an X-Real-IP header for C<LWP::UserAgent>.
 Queries Alexa for a specified domain and return a hash reference.
 If query fails for some reason (Alexa unreachable, undefined url passed)
 a string or undefined.
+=back
 
 =head1 AUTHOR
 
 Rijvi Rajib, C<< <me at rij.co> >>
+
+=back
 
 =head1 BUGS
 
@@ -107,7 +116,7 @@ the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-Alexa-
 automatically be notified of progress on your bug as I make changes.
 
 
-
+=back
 
 =head1 SUPPORT
 
@@ -141,6 +150,7 @@ L<http://search.cpan.org/dist/WWW-Alexa-API/>
 
 =head1 ACKNOWLEDGEMENTS
 
+=back
 
 =head1 LICENSE AND COPYRIGHT
 
@@ -182,6 +192,7 @@ CONTRIBUTOR WILL BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, OR
 CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THE PACKAGE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+=back
 
 =cut
 
