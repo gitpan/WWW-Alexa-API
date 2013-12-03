@@ -66,6 +66,7 @@ querying Alexa.com for Traffic information.
 
 To use it, you should create a C<WWW::Alexa::API> object and 
 use its method to get(), to query information for a domain.
+=back
 
 =head1 CONSTRUCTOR METHOD
 
@@ -101,6 +102,7 @@ C<ip_address> allows you to set an X-Real-IP header for C<LWP::UserAgent>.
 Queries Alexa for a specified domain and return a hash reference.
 If query fails for some reason (Alexa unreachable, undefined url passed)
 a string or undefined.
+
 =back
 
 =head1 AUTHOR
