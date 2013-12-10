@@ -21,4 +21,4 @@ requires:
   LWP::UserAgent: 6
   Test::Simple: 0.44
   XML::Hash::LX: 0.0603
-version: 0.01
+version: 0.07
